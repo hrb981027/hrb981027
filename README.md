@@ -9,8 +9,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'MaikeOS',
-                'position' => 'PHP Developer'
+                'company' => 'Alibaba',
+                'position' => 'PHP & JAVA Developer'
             ]
         ];
     }
@@ -20,7 +20,7 @@ class About extends Me
         return [
             Php::class,
             Go::class,
-            Node::class,
+            Java::class,
             Linux::class
         ];
     }
