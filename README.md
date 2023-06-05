@@ -10,7 +10,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Alibaba',
-                'position' => 'PHP & JAVA Developer'
+                'position' => 'Full Stack Developer'
             ]
         ];
     }
@@ -18,8 +18,10 @@ class About extends Me
     public function getDailyKnowledge()
     {
         return [
-            Php::class,
             Go::class,
+            Php::class,
+            TypeScript::class,
+            React::class,
             Java::class,
             Linux::class
         ];
